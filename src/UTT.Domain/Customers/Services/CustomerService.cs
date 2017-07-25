@@ -34,7 +34,7 @@ namespace UTT.Domain.Customers.Services
 
         public void Update(Customer customer)
         {
-            if (customer.IsValid())
+            if (!customer.IsValid())
                 return;
 
             _customerRepository.Update(customer);
@@ -43,7 +43,7 @@ namespace UTT.Domain.Customers.Services
 
         public void Inactivate(Customer customer)
         {
-            if (customer.IsValid())
+            if (!customer.IsValid())
                 return;
 
             customer.SetInactive();
