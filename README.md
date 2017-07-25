@@ -8,7 +8,7 @@ Great tools to increase the quality of your unit tests.
 - XUnit
   - Runners
   - Collection Fixture
-  - Good use of decorators to easy recognizing
+  - Good use of decorators for better recognizing
 - MOQ
   - Use of Verify Assertion
 - AutoMoq
